@@ -1,0 +1,252 @@
+Hyper Text Markup Language
+
+
+
+Basic Syntax of HTML 
+
+<!DOCTYPE html>   - HTML5 
+<html>
+   <head>
+      <title> </title>
+   </head> 
+   <body>
+
+   </body>
+
+</html>
+
+........................
+
+HEADING  <h1> </h1>     <h6> </h6>
+PARAGRAPH <p> </p>
+BOLD  <b> </b> OR <strong> </strong>
+ITALIC <i> </i> OR  <em> </em>
+UNDERLINE <u> </u> OR <ins> </ins>
+MARK <mark> </mark>
+DEL <del> </del> 
+MARQUEE
+<marquee direction="up/down/left/right" behavior="alternate/slide" scrollamount="33" > </marquee>
+
+FONT 
+<font color="red" size="+3" face="verdana"> 
+
+</font>
+
+Horizontal Rule 
+<hr />
+
+Break Row 
+<br />
+.................................................
+
+LIST 
+1. Ordered List 
+    <ol>
+        <li> </li>
+    </ol>
+2. Unordered List 
+     <ul>
+        <li> </li>
+    </ul>
+3. Nested List 
+4. Description List 
+
+
+TABLE 
+
+<table> 
+
+</table> 
+
+
+Table Row  <tr> </tr> 
+
+Colum       <td> </td>  <th> </th>
+
+
+
+COLOUM MERGE 
+
+ROW MERGE 
+
+
+IMAGE ( jpg, jpeg,png,gif)
+
+<img src="asdsdf.jpg" />
+
+
+WEBSITE/
+    
+      pages/
+         about.html
+         <img src="../a1.jpg" />
+         <img src="../images/a2.jpg" />
+      images/
+        a2.jpg 
+a1.jpg 
+home.html
+<img src="a1.jpg" />
+<img src="images/a2.jpg" />
+
+.....................................
+
+ANCHOR  - Pages Link , Hyper Link 
+
+<a>Click here</a>
+
+AUDIO
+
+ <audio controls> 
+ </audio>
+
+VIDEO 
+MAP 
+FAVICON 
+
+FORM 
+
+  <form> </form>
+
+  NAME    TEXT     <input type="text" />
+  EMAIL   email    <input type="email"/>
+  Mobile  number   <input type="number"/>
+  DOB     date     <input type="date" />
+  Time    time     <input type="time" /
+  Color   color    <input type="color" />
+  Search  search   <input type="search" />
+
+  Multi Choice 
+  Checkbox 
+  <input type="checkbox" />
+   
+  Single Choice 
+
+  RADIO
+
+  <input type="radio" />
+
+  Dropdown 
+  <select>
+     <option>India</option>
+     <option>Bhutan</option>
+  </select>
+
+  <textarea> </textarea>
+
+  <input type="submit" />
+  <input type="reset" />
+
+
+  Favicon 
+
+  <link rel="icon" type="image/png" href="" />
+
+
+ HTML 5:
+
+ <div id="header"> </div> 
+ <span> </span>
+
+<header> </header>
+<footer> </footer>
+<section> </section>
+<aside> </aside>
+<article> </article>
+
+...........................................................
+CSS -  Cascading Style Sheet - Beautification 
+
+1. Inline 
+    <h1 style="propertyname:value; propertyname:value;"> </h1>
+
+2. Internal 
+    <head>
+     <style>
+       tagName
+       {
+         propertyname:value;
+         propertyname:value;
+         propertyname:value;
+         propertyname:value;
+       }
+     </style>
+    </head>
+
+
+    ID  
+    <h1 id="asdasd"> </h1>
+
+    #asdasd
+    {
+      color:red;
+    }
+    CLASS 
+     <h1 class="asdasd"> </h1>
+
+    .asdasd
+    {
+      color:red;
+    }
+
+3. External 
+   
+   custom.css 
+
+  <link rel="stylesheet" type="text/css" href="" />
+............................................................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+1. Type of List 
+2. Document Type Kya Hota hai 
+3. Horizontal Rule - <hr />
+4. <font color="" size="" face=""> </font>
+5. <ul> </ul> 
+6. Table ROW and Col Merge ke liya kya use karte hain  
+7.  Hight ker 
+8.  Marquee  direction  
+             behavior 
+             onmouseover
+             onmouseout 
+             scrollamount 
+9. 
+www 
+http 
+https 
+ip  local ip address 127.0.0.1
+...................................
+CSS : 
+   - Type of CSS 
+   - Margin & Padding 
+   - Widht & Height 
+   - Float 
+   - Background 
+   - Shadow 
+   - Text                      3 Days 
+   - Font 
+   - Transition 
+   - Transform - 2d,3d 
+   - Animation 
+   - Media Screenm 
+   - Flex 
+   - Position 
+   - Pesudo Properties 
+
+   - Github 
+   - Netify 
+
+MAJOR PROJECT - TOPIC 
+     - AI + PHP
