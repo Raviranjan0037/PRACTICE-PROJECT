@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body
+{
+    font-family: 'Open Sans',  sans-serif;
+}
+*{
+    margin: 0px;
+}
+#topheader
+{
+    width: 100%;
+    min-height: 80px;
+    background: hsl(198, 20%, 23%);
+}
+.inner
+{
+ width: 80%;
+ margin: auto;
+}
+#topheader .logo
+{
+     width: 20%;
+     float: left;
+     min-height: 80px;
+}
+#topheader .logo h1 
+{
+    line-height: 80px;
+}
+#topheader .logo h1 span
+{
+    color : #10ac84;
+}
+#topheader .menu
+{
+     width: 60%;
+     float: right;
+     min-height: 80px;
+}
+#topheader .menu ul
+{
+    list-style: none;
+    float: right;
+}
+#topheader .menu ul li
+{
+    float: left;
+    padding: 0px 20px;
+    text-align: center;
+    line-height: 80px;
+}
+#topheader .menu ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+}
+#topheader .menu ul li a:hover
+{
+    color:#10ac84;
+}
+#topheader .menu ul li a span
+{
+    color : hwb(0 30% 69%);
+}
+#slide
+{
+    width: 100%;
+    min-height: 80vh;
+}
+#slide .left
+{
+    width: 50%;
+    float: left;
+    min-height: 80vh;
+}
+#slide .left #content
+{
+    width: 80%;
+    float: right;
+    padding-top: 200px;
+    font-size: 20px;
+}
+.btn
+{
+    min-width: 120px;
+    height: 60px;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #10ac84;
+}
+.btn:hover
+{
+    background: #dfe6e9;
+    color: #10ac84;
+}
+#slide .right
+{
+    width: 50%;
+    float: right;
+    min-height: 80vh;
+}
+#slide .right img
+{
+    width: 100%;
+    height: 80vh;
+}
+#services
+{
+    width: 100%;
+    min-height: 50px;
+    padding-top: 70px;
+}
+#services .c1
+{
+    width: 25%;
+    float: left;
+    min-height: 300px;
+}
+#services .c2
+{
+    width: 25%;
+    float: left;
+    min-height: 300px;
+}
+#services .c3
+{
+    width: 25%;
+    float: left;
+    min-height: 300px;
+}
+#services .c4
+{
+    width: 25%;
+    float: left;
+    min-height: 300px;
+}
+#services .icon
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background:#dfe6e9;
+    text-align: center;
+    line-height: 50px;
+    color: #10ac84;
+    margin-bottom: 30px;
+}
+#packages
+{
+    width: 100%;
+    min-height: 600px;
+    padding-top: 0px;
+}
+#packages .row
+{
+    width: 100%;
+    min-height: 300px;
+}
+#packages .c1
+{
+    width: 32%;
+    min-height: 300px;
+    float: left;
+}
+#packages .c2
+{
+    width: 32%;
+    min-height: 300px;
+    float: left;;
+    margin-left: 25px;
+}
+#packages .c3
+{
+    width: 32%;
+    min-height: 300px;
+    float: right;
+   
+}
+#packages img
+{
+    width: 100%;
+}
+#packages .row
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.package_name
+{
+    position: relative;
+    top: -100px;
+    text-align: center;
+    color: rgb(206, 252, 1);
+}
+#video
+{
+    width: 100%;
+    min-height: 450px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#booknow
+{
+    width: 100%;
+    min-height: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px  ;
+}
+
+#booknow .row1
+{
+    width: 100%;
+    min-height: 20vh;
+}
+
+
+#booknow .row1 .c1
+{
+    width: 50%;
+    float: left;
+    min-height: 20vh;
+}
+
+#booknow .row1 .c2
+{
+    width: 50%;
+    float: left;
+    min-height: 20vh;
+}
+#booknow span
+{
+    color: #10ac84;
+    font-weight: bold;
+}
+
+#booknow .row2
+{
+    width: 100%;
+    min-height: 50vh;
+    margin-top: 50px;
+
+}
+#booknow .row2 .c1
+{
+    width: 30%;
+    float: left;
+    min-height: 50vh;
+    
+}
+
+
+#booknow .row2 .c2
+{
+    width: 30%;
+    float: left;
+    min-height: 50vh;
+    margin-left: 50px ;
+   
+}
+
+
+#booknow .row2 .c3
+{
+    width: 30%;
+    float: right;
+    min-height: 50vh;
+  
+}
+#booknow label
+{
+    width: 100%;
+}
+
+#booknow input
+{
+    width: 100%;
+    height: 40px;
+    margin-top:5px ;
+    margin-bottom: 5px;
+}
+
+
+#booknow select
+{
+    width: 100%;
+    height: 40px;
+    margin-top:5px ;
+    margin-bottom: 5px;
+}
+#booknow input[type="submit"]
+{
+background:royalblue;
+color: white;
+border: 0px;
+}
+
+#discount
+{
+  width: 100%;
+  min-height: 60hv ;
+  background: url(../images/bghill.jpg);
+  background: linear-gradient(rgba(40,45,80,0.6)),rgba(40,45,80,0.6);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}  
+
+#offer
+{
+    width: 40%;
+    float: right;
+    min-height: 60vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(217, 34, 34);
+
+}
+#offer span
+{
+    color: orange;
+    font-weight: bold;
+}
+ #offer input[type="email"]
+ {
+    width: 39%;
+    height:40%;
+    background: rgb(191, 255, 0);
+    color: rgb(178, 15, 15);
+    border: 0px;
+ }
+#offer p
+{
+    padding:  10px 0px;
+}
